@@ -1,0 +1,63 @@
+body{
+  background-color:#FFEAC5 ;
+  font-family:"Cormorant Garamond", serif ;
+  color:#603F26;
+  font-size:16px;
+  font-weight: 600;
+  line-height:15px;
+}
+
+h1{
+  color:#6C4E31 ;
+  font-family: "Merriweather", serif ;
+  font-weight: 400;
+  font-size: 40px;
+  line-height:15px;
+}
+
+h2{
+  color:#6C4E31 ;
+  font-family: "Merriweather", serif ;
+  font-weight: 400;
+  font-size: 30px;
+  line-height:15px;
+}
+
+a :hover{
+  text-decoration: none ;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.card{
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+  width:45%
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
