@@ -1,46 +1,3 @@
-body{
-  background-color:#FFEAC5 ;
-  font-family:"Cormorant Garamond", serif ;
-  color:#603F26;
-  font-size:16px;
-  font-weight: 600;
-  line-height:15px;
-}
-
-h1{
-  color:#6C4E31 ;
-  font-family: "Merriweather", serif ;
-  font-weight: 400;
-  font-size: 40px;
-  line-height:15px;
-}
-
-h2{
-  color:#6C4E31 ;
-  font-family: "Merriweather", serif ;
-  font-weight: 400;
-  font-size: 30px;
-  line-height:15px;
-}
-
-a :hover{
-  text-decoration: none ;
-}
-
-img{
-  border-radius: 50%;
-}
-
-.card{
-  background-color: white;
-  padding: 20px;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  margin: 20px auto;
-  text-align: center;
-  width:45%
-}
-
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -60,4 +17,71 @@ img{
   .container {
     width: 300px;
   }
+}
+
+body{
+  background-color:#FFEAC5 ;
+  font-family:"Cormorant Garamond", serif ;
+  color:#603F26;
+  font-size:16px;
+  font-weight: 600;
+  line-height:15px;
+  background-image: url("images/brown.jpeg");
+}
+
+h1{
+  color:#6C4E31 ;
+  font-family: "Merriweather", serif ;
+  font-weight: 400;
+  font-size: 40px;
+  line-height:100%;
+}
+
+h3{
+  color:#6C4E31 ;
+  font-family: "Merriweather", serif ;
+  font-weight: 400;
+  font-size: 30px;
+  line-height:15px;
+}
+
+a {
+  text-decoration: none ;
+  text-align: center;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.card{
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+  width:45%;
+  }
+
+.card > a{
+  font-size: 45px;
+  margin-left:1rem;
+}
+
+button{
+  text-align: center;
+  background-color: #8a6849;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+button > a {
+  color: #FFEAC5;
+  line-height: 30px;
+}
+
+button > a:hover{
+  text-decoration: underline;
 }
